@@ -7,6 +7,14 @@ nav {
     font-weight:bold;
 }
 
+/* PROMO */
+
+#promo {
+    text-align:center;
+    padding:40px;
+    margin-bottom:5px;
+}
+
 /* BANDEAU */
 
 #bandeau {

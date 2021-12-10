@@ -14,33 +14,45 @@
 
 <body>
     <header>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="ressources/img/logo.png"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item mx-2">
-                    <a class="nav-link" href="#accueil">Accueil</a>
-                  </li>
-                  <li class="nav-item mx-2">
-                    <a class="nav-link" href="#destination">Destinations</a>
-                  </li>
-                  <li class="nav-item mx-2">
-                    <a class="nav-link" href="formules">Nos offres</a>
-                  </li>
-                  <li class="nav-item mx-2">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item mx-2">
-                    <a class="nav-link" href="#partenaires">Nos partenaires</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#"><img src="ressources/img/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#destination">Destinations</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#formules">Nos offres</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#partenaires">Nos partenaires</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
+        <section id="promo" class="bg-info">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="fs-2"> -15% sur tous les séjours en formule premium ou excellence pour toute
+                            réservation avant le 1er novembre 2020 !!</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <section id="bandeau" class="bg-info">
         <div class="container-fluid">
@@ -56,6 +68,56 @@
                 <div class="col-md-4">
                     <i class="fas fa-globe-americas mb-4"></i>
                     <h2 class="fs-4">30 ans d'expérience !</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="my-3">Réservez dès maintenant !</h3>
+                    <form>
+                        <label for="validationCustom01" class="form-label">Nom</label>
+                        <input type="text" class="form-control mb-3" id="validationCustom01" value="Entrez votre nom"
+                            required>
+                        <label for="validationCustom02" class="form-label">Prénom</label>
+                        <input type="text" class="form-control mb-3" id="validationCustom02" value="Entrez votre prénom"
+                            required>
+                        <label for="validationCustom03" class="form-label">Destination souhaitée</label>
+                        <select class="form-select mb-3" id="validationCustom03" required>
+                            <option selected disabled value="">Choisir la destination</option>
+                            <option>Bora-Bora</option>
+                            <option>Hawaï</option>
+                            <option>Tahiti</option>
+                            <option>Inde</option>
+                            <option>Canada</option>
+                        </select>
+                        <label for="validationCustom04" class="form-label">Date de départ</label>
+                        <input type="date" class="form-control mb-3" id="validationCustom04" value="Choisir une date"
+                            required>
+                            <label for="validationCustom05" class="form-label">Date de retour</label>
+                        <input type="date" class="form-control mb-3" id="validationCustom05" value="Choisir une date"
+                            required>
+                            <label for="validationCustom06" class="form-label">Formule souhaitée</label>
+                        <select class="form-select mb-3" id="validationCustom06" required>
+                            <option selected disabled value="">Choisir la formule</option>
+                            <option>Standard</option>
+                            <option>Premium</option>
+                            <option>Excellence</option>
+                        </select>
+                        <label for="validationCustom07" class="form-label">Nombre d'adultes</label>
+                        <input type="number" class="form-control mb-3" id="validationCustom07" value="Entrez votre nom"
+                            required>
+                            <label for="validationCustom08" class="form-label">Nombre d'enfants (-14ans)</label>
+                        <input type="number" class="form-control mb-3" id="validationCustom08" value="Entrez votre nom"
+                            required>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <iframe class="my-3"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2755.3676187594738!2d-0.4627963485764573!3d46.32239528368649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480731cd6a9da7d1%3A0x3b0f9c787de92f83!2sTUI%20STORE!5e0!3m2!1sfr!2sfr!4v1639150473389!5m2!1sfr!2sfr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
