@@ -1,0 +1,18 @@
+/* NAVBAR */
+
+nav img {
+    width:120px;
+}
+nav {
+    font-weight:bold;
+}
+
+/* BANDEAU */
+
+#bandeau {
+    text-align:center;
+    padding:50px 90px;
+}
+#bandeau i {
+    font-size:600%;
+}
